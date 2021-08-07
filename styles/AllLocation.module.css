@@ -1,0 +1,58 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.input {
+  position: relative;
+}
+.elinput__inner {
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(151, 150, 150);
+  cursor: pointer;
+}
+.span {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+.svg {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.allitem {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 30px;
+}
+.item__wrapper {
+  height: 265px;
+  cursor: pointer;
+}
+.item {
+  width: 100%;
+  height: 190px;
+}
+.item__image {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

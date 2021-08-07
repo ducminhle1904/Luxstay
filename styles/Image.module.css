@@ -1,0 +1,16 @@
+.image {
+  height: 420px;
+  width: 100%;
+  margin-top: 85px;
+  cursor: pointer;
+}
+.image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    height: 200px;
+  }
+}

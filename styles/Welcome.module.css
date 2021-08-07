@@ -1,0 +1,15 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-bottom: 50px;
+}
+
+.container a {
+  color: #222;
+  transition: all 0.3s;
+  text-decoration: underline;
+}
+.container a:hover {
+  color: tomato;
+}

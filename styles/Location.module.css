@@ -1,0 +1,34 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.images {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+}
+.image {
+  position: relative;
+  width: 245px;
+  height: 310px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.image:hover {
+  cursor: pointer;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image__text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+}
